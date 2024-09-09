@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  }
+  
+  .why-choose-us {
+    background-color: #f4f4f4;
+  }
+  
+  .about-container {
+    max-width: 130rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 50px 100px 50px;
+  }
+  
+  .stats--box {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3.2rem;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* justify-items: center; */
+    gap: 3.2rem;
+  }
+  
+  .stat-item {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+  }
+  
+  .stat-item:nth-child(1),
+  .stat-item:nth-child(3) {
+    justify-self: center;
+  }
+  
+  .stat-text {
+    text-align: start;
+  }
+  
+  .main-header {
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #02187b;
+    letter-spacing: -0.5px;
+    margin-bottom: 2.4rem;
+  }
+  
+  .header-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-bottom: 4rem;
+    margin-inline: auto;
+  }
+  
+  .stat-text h3 {
+    color: #02187b;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+  }
+  
+  .stat-text p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  .icon-container {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container img {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  

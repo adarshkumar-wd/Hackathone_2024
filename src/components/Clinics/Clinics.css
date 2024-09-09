@@ -1,0 +1,99 @@
+
+
+/* General Css */
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 12.8rem;
+  padding: 3.2rem 6.4rem;
+  position: relative;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blockquote{
+  color: #11337e;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 1.5;
+  box-shadow: 0 0px 8px 2px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.card .first-child{
+  color: #fff;
+  background-color: #11337e;
+}
+
+/* Element Css */
+
+h2 {
+  font-size: 6.2rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 4rem  0;
+  color: #11337e;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 12px;
+  transform: scale(1.2);
+  box-shadow: 0px 3px 8px 4px rgba(0, 0, 0, 0.24) ;
+}
+
+.blockquote h3{
+  font-size: 2.4rem;
+}
+
+.blockquote p{
+  font-size: 1.8rem;
+}
+
+.blockquote span{
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--left {
+  /* In relation to PARENT ELEMENT */
+  left: 0%;
+  top: 35%;
+
+  /* In relation to ELEMENT ITSELF */
+  transform: translate(0,-50%);
+}
+.btn--right {
+  right: 0%;
+  top: 35%;   
+  transform: translate(0,-50%);
+}
+
+.btn-icon {
+  height: 32px;
+  width: 32px;
+  stroke: #11337e;
+}
