@@ -34,7 +34,7 @@ function Navbar() {
       </nav>
 
       <section className='w-full h-[4%] bg-cyan-500 text-center text-3xl text-black font-extrabold flex items-center justify-center'>
-        <span className='text-red-500'>NOTE :- </span> <span>  </span> <p> Please Open The Prototype in Our Laptop . Because the Prototype is not RESPONSIVE till now...</p>
+        <span className='text-red-500'>NOTE :- </span> <span>  </span> <p> Please Open The Prototype in Your Laptop . Because the Prototype is not RESPONSIVE till now...</p>
       </section>
 
     </>
