@@ -26,7 +26,7 @@ function App() {
         { opacity: 0 }, 
         { opacity: 1, duration: 0.3 }, "-=0.3"
       );
-    }
+    } 
   };
 
   const closeChatBot = () => {
