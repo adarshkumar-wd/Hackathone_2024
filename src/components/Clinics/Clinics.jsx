@@ -11,7 +11,7 @@ function Clinics() {
                 <div className="card w-[22%]  mt-10">
                     <img src={maria} alt="Mr. Rahul Verma" />
                     <div className="blockquote first-child">
-                        <h3>Mr. Rahul Verma</h3>
+                        <h3>xyz clinic</h3>
                         <p>M.Sc., SLP</p>
                         <p>10 years of Experience</p>
                         <p>
@@ -25,7 +25,7 @@ function Clinics() {
                 <div className="card w-[22%] mt-10">
                     <img src={maria} alt="Dr. Ananya Mehta" />
                     <div className="blockquote">
-                        <h3>Dr. Ananya Mehta</h3>
+                        <h3>xyz clinic</h3>
                         <p>PhD, CCC-SLP</p>
                         <p>15 years of Experience</p>
                         <p>
@@ -38,7 +38,7 @@ function Clinics() {
                 <div className="card w-[22%] mt-10">
                     <img src={maria} alt="Ms. Priya Sharma" />
                     <div className="blockquote">
-                        <h3>Ms. Priya Sharma</h3>
+                        <h3>xyz clinic</h3>
                         <p>M.A., CCC-SLP</p>
                         <p>8 years of Experience</p>
                         <p>
