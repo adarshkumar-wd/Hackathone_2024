@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/Logo2.jpg"
+import logo from "../assets/Logo3.png"
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className='w-full h-[40vh] bg-blue-800 font-white'>
         <div className='w-full h-[50%] flex items-center justify-center'>
-            <div className='h-[15rem] w-[15rem] rounded-full overflow-hidden'>
+            <div className='h-[15rem] w-[15rem] overflow-hidden'>
                 <img className='w-full h-full object-contain' src={logo} alt="" />
             </div>
         </div>
