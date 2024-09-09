@@ -6,7 +6,7 @@ function Clinics() {
     return (
         <div className='h-screen w-full flex flex-col justify-center pt-10'>
 
-            <h2 className='text-[6.3rem] mb-5 tracking-tight font-semibold'>Clinics available</h2>
+            <h2 className='text-[6.3rem] mb-5 tracking-tight font-semibold'>Clinics Available</h2>
             <div class="container mt-8 w-full h-screen">
                 <div className="card w-[22%]  mt-10">
                     <img src={maria} alt="Mr. Rahul Verma" />
