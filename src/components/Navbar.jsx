@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='w-full h-[11%] bg-blue-900 flex items-center pl-10 pr-10 justify-between'>
+      <nav className='w-full h-[11%] bg-blue-900 flex items-center pl-14 pr-14 justify-between'>
 
         <div className=' h-[9rem] w-[9rem] overflow-hidden '>
           <img className='w-full h-full object-contain ' src={logo} alt="" />
