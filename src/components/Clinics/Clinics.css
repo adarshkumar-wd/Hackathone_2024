@@ -37,7 +37,6 @@
 /* Element Css */
 
 h2 {
-  font-size: 6.2rem;
   font-weight: 500;
   text-align: center;
   margin: 4rem  0;
@@ -51,13 +50,8 @@ h2 {
   box-shadow: 0px 3px 8px 4px rgba(0, 0, 0, 0.24) ;
 }
 
-.blockquote h3{
-  font-size: 2.4rem;
-}
 
-.blockquote p{
-  font-size: 1.8rem;
-}
+
 
 .blockquote span{
   font-weight: 600;

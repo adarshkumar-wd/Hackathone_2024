@@ -6,11 +6,11 @@ function Clinics() {
     return (
         <div className='h-screen w-full flex flex-col justify-center pt-10'>
 
-            <h2 className='text-[6.3rem] mb-5 tracking-tight font-semibold'>Clinics Available</h2>
-            <div class="container mt-8 w-full h-screen">
+            <h2 className='text-[4rem] tracking-tight font-semibold'>Clinics Available</h2>
+            <div class="container w-full h-screen">
                 <div className="card w-[22%]  mt-10">
                     <img src={maria} alt="Mr. Rahul Verma" />
-                    <div className="blockquote first-child">
+                    <div className="blockquote first-child text-[1.3rem]">
                         <h3>xyz clinic</h3>
                         <p>M.Sc., SLP</p>
                         <p>10 years of Experience</p>
@@ -24,7 +24,7 @@ function Clinics() {
 
                 <div className="card w-[22%] mt-10">
                     <img src={maria} alt="Dr. Ananya Mehta" />
-                    <div className="blockquote">
+                    <div className="blockquote  text-[1.3rem]">
                         <h3>xyz clinic</h3>
                         <p>PhD, CCC-SLP</p>
                         <p>15 years of Experience</p>
@@ -37,7 +37,7 @@ function Clinics() {
 
                 <div className="card w-[22%] mt-10">
                     <img src={maria} alt="Ms. Priya Sharma" />
-                    <div className="blockquote">
+                    <div className="blockquote  text-[1.3rem]">
                         <h3>xyz clinic</h3>
                         <p>M.A., CCC-SLP</p>
                         <p>8 years of Experience</p>
