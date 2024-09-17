@@ -19,13 +19,13 @@ function Hero() {
         <div className='h-full w-[60%] flex items-center justify-center'>
 
           <div>
-            <h1 className='text-6xl font-bold mb-6 text-blue-900'>FIND CLINICS</h1>
+            <h1 className='text-5xl font-bold mb-6 text-blue-900'>FIND CLINICS</h1>
 
-            <div onClick={() => setisLocationLlistOpen(!isLocationLlistOpen)} className='relative h-[5rem] w-[30rem] hover:cursor-pointer mt-10 mb-6 flex border-[1px] border-blue-800 items-center p-2 text-[2rem] font-semibold rounded-lg shadow-[5px_5px_10px_rgba(0,0,0,0.25)]'>
+            <div onClick={() => setisLocationLlistOpen(!isLocationLlistOpen)} className='relative h-[3.3rem] w-[25rem] hover:cursor-pointer mt-10 mb-6 flex border-[1px] border-blue-800 items-center p-2 text-[1.4rem] font-semibold rounded-lg shadow-[5px_5px_10px_rgba(0,0,0,0.25)]'>
               <IoLocationOutline className='text-blue-800 font-extrabold ml-1' />
               <p className='ml-4 text-gray-500 opacity-50'><h1>Select Location</h1></p>
 
-              <div className={`absolute ${ !isLocationLlistOpen ? "hidden" : "" } w-full h-[30rem] p-1 bg-white border-[2px] text-black border-blue-900 rounded-2xl overflow-hidden z-[1] top-[100%] left-0`}>
+              <div className={`absolute ${ !isLocationLlistOpen ? "hidden" : "" } w-full h-[23rem] p-1 bg-white border-[2px] text-black border-blue-900 rounded-2xl overflow-hidden z-[1] top-[100%] left-0`}>
                 <div className='h-full w-full '>
                   <div className='h-[15%] flex items-center'>
                     <IoArrowBack onClick={() => setisLocationLlistOpen(!isLocationLlistOpen)} className='bg-white w-[10%] h-[50%]'/>
@@ -41,7 +41,7 @@ function Hero() {
                 </div>
               </div>
 
-              <div className={`absolute ${ !isCliniclistOpen ? "hidden" : ""} w-full h-[30rem] p-1 bg-white border-[2px] text-black border-blue-900 rounded-2xl overflow-hidden z-[1] top-[100%] left-0`}>
+              <div className={`absolute ${ !isCliniclistOpen ? "hidden" : ""} w-full h-[23rem] p-1 bg-white border-[2px] text-black border-blue-900 rounded-2xl overflow-hidden z-[1] top-[100%] left-0`}>
                 <div className='h-full w-full '>
                   <div className='h-[15%] flex items-center'>
                     <IoArrowBack onClick={() => setisCliniclistOpen(!isCliniclistOpen)} className='bg-white w-[10%] h-[50%]'/>
@@ -59,12 +59,12 @@ function Hero() {
 
             </div>
 
-            <div className=' h-[3rem] w-[50rem] mt-10 mb-6 border-b-[2px] border-blue-800 flex items-center text-[2rem] font-semibold'>
+            <div className=' h-[3rem] w-[40rem] mt-10 mb-6 border-b-[2px] border-blue-800 flex items-center text-[2rem] font-semibold'>
               <IoSearchOutline className='w-[10%] font-extrabold text-blue-900' />
               <input className='h-full outline-none w-fit opacity-55' type="text" placeholder='Search Clinics...' />
             </div>
 
-            <button className='bg-blue-800 p-5 text-white mt-4 mb-6 h-[5rem] w-[15rem] font-semibold text-4xl rounded-lg hover:bg-blue-700'>Search</button>
+            <button className='bg-blue-800 p-5 text-white mt-4 mb-6 h-[3.5rem] w-[10rem] font-semibold text-3xl rounded-lg flex items-center justify-center hover:bg-blue-700'>Search</button>
 
           </div>
 
