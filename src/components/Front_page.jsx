@@ -7,7 +7,7 @@ import Contact from './Contact'
 function Front_page() {
   return (
     <div className=''>
-      <Hero/>
+      <Hero />
       <About />
       <Clinics />
       <Contact />
