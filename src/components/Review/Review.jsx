@@ -44,13 +44,6 @@ function Review() {
                             <div className='mt-10'>
                                 <p className='text-center px-6'>{item.feedback}</p>
                             </div>
-                            <div className='absolute bottom-5 flex text-2xl'>
-                                <span className='text-yellow-500'><IoStarSharp/></span>
-                                <span className='text-yellow-500'><IoStarSharp/></span>
-                                <span className='text-yellow-500'><IoStarSharp/></span>
-                                <span className='text-yellow-500'><IoStarSharp/></span>
-                                <span className='text-yellow-500'><IoStarSharp/></span>
-                            </div>
                         </div>
                     ))
                 }
