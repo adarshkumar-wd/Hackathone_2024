@@ -41,13 +41,13 @@ function About() {
   ]
 
   return (
-    <div className='w-full h-screen flex flex-col items-center' style={{ background: 'linear-gradient(to right, rgb(224,255,255),  rgb(185,242,255))'}}>
+    <div className='w-full h-screen flex flex-col items-center' style={{ background: 'linear-gradient(to right, white,  rgb(224,255,255))'}}>
       <h2 className='text-5xl font-bold mb-5'><p>Why <span className='text-cyan-600'>Choose Us</span></p></h2>
       <div className='w-[80%] h-[60%] flex gap-[.5rem] flex-wrap   items-center justify-around'>
         {
           cardData.map((item, index) => (
 
-            <div key={index} className='w-[30%] h-[40%] border-[1px] border-gray-500 rounded-xl'>
+            <div key={index} className='w-[30%] h-[40%] border-[1px] border-gray-500 rounded-xl bg-white'>
               <div className='w-full h-[55%] flex items-center justify-center'>
                 <img className='h-[90%] ' src={item.image} alt="" />
               </div>
@@ -59,7 +59,7 @@ function About() {
           ))
         }
       </div>
-      <button>Get Started Now</button>
+      <button className=' w-[26%] h-[3.4rem] rounded-full text-white font-bold text-2xl' style={{ backgroundColor: 'rgb(255, 122, 0)' }}>Get Started Now</button>
     </div>
   )
 }
