@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { CgProfile } from "react-icons/cg";
-import logo from "../assets/Logo3.png"
+import logo from "../assets/vani.png"
 
 
 function Navbar() {
@@ -11,8 +11,8 @@ function Navbar() {
     <>
       <nav className='w-full h-[11%] bg-blue-900 flex items-center pl-14 pr-14 justify-between'>
 
-        <div className=' h-[7rem] w-[7rem] overflow-hidden '>
-          <img className='w-full h-full object-contain ' src={logo} alt="" />
+        <div className=' h-[7rem]  overflow-hidden '>
+          <img className=' h-full object-contain w-[15rem]' src={logo} alt="" />
         </div>
 
         <div className='h-[80%] w-[50%] text-white'>

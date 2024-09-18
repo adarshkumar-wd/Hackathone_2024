@@ -4,7 +4,7 @@ import maria from "../../assets/Clinic.avif"
 
 function Clinics() {
     return (
-        <div className='h-screen w-full flex flex-col justify-center pt-10' style={{ background: 'linear-gradient(to right, white,  rgb(224,255,255))'}}>
+        <div className='h-screen w-full flex flex-col justify-center pt-10' style={{ background: 'linear-gradient(to right, rgb(224,255,255),  rgb(185,242,255))'}}>
 
             <h2 className='text-[4rem] tracking-tight font-semibold'>Clinics Available</h2>
             <div class="container w-full h-screen">

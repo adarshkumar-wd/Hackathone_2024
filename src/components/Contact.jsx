@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/Logo3.png"
+import logo from "../assets/vani.png"
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -12,7 +12,7 @@ function Contact() {
                 <img className='w-full h-full object-contain' src={logo} alt="" />
             </div>
         </div>
-        <div className='w-full h-[25%]  flex items-center justify-around text-3xl text-white font-semibold'>
+        <div className='w-full h-[25%]  flex items-center justify-around text-[1.1rem] text-white font-semibold'>
             <div><p><h1>CONNECT YOUR CLINIC :- 9999******</h1></p></div>
             <div><p><h1>HELPLINE NUMBER :- 9999******</h1></p></div>
             <div><p><h1>CLINIC HELPLINE NUMBER :- 9999******</h1></p></div>

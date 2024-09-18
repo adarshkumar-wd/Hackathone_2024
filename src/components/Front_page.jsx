@@ -3,6 +3,7 @@ import Hero from './Hero'
 import About from './About/About'
 import Clinics from './Clinics/Clinics'
 import Contact from './Contact'
+import Review from './Review/Review'
 
 function Front_page() {
   return (
@@ -10,6 +11,7 @@ function Front_page() {
       <Hero />
       <About />
       <Clinics />
+      <Review />
       <Contact />
     </div>
   )
