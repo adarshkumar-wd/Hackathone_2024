@@ -12,7 +12,7 @@ function Hero() {
   const [isCliniclistOpen, setisCliniclistOpen] = useState(false)
 
   return (
-    <div id='Home' className='w-full h-screen relative'>
+    <div id='Home' className='w-full h-screen relative' style={{ background: 'linear-gradient(to right, rgb(224,255,255),  rgb(185,242,255))'}}>
       <Navbar />
       <section className='h-[85%] flex'>
 

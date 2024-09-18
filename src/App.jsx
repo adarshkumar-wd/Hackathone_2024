@@ -4,6 +4,7 @@ import Front_page from './components/Front_page';
 import chatbot from "./assets/chatbot.jpeg";
 import gsap from 'gsap';
 import { MdClose } from "react-icons/md";
+import ap6 from "./assets/ap-6.png"
 
 function App() {
   const [isCodeSpaceOpen, setIsCodeSpaceOpen] = useState(false);
@@ -56,7 +57,7 @@ function App() {
     <div className='w-full h-full overflow-x-hidden'>
       <Front_page />
       <div onClick={openChatSpace} className='fixed w-[7rem] h-[7rem] bg-red-500 rounded-full bottom-[5rem] right-52 z-[100] overflow-hidden border-[2.5px] border-blue-900 hover:cursor-pointer'>
-        <img className='w-full h-full object-cover' src={chatbot} alt="" />
+        <img className='w-full h-full object-cover' src={ap6} alt="" />
       </div>
       <div className='chatSpace fixed w-[20%] h-0 opacity-0 bottom-[12rem] right-4 z-[100] flex items-center justify-center bg-white border-[2.5px] border-cyan-700 rounded-2xl'>
         <div className='w-full h-full flex items-center justify-center relative'>

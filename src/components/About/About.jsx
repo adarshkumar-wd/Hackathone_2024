@@ -41,8 +41,8 @@ function About() {
   ]
 
   return (
-    <div className='w-full h-screen flex flex-col items-center'>
-      <h2><p>Why <span>Choose Us</span></p></h2>
+    <div className='w-full h-screen flex flex-col items-center' style={{ background: 'linear-gradient(to right, rgb(224,255,255),  rgb(185,242,255))'}}>
+      <h2 className='text-5xl font-bold mb-5'><p>Why <span className='text-cyan-600'>Choose Us</span></p></h2>
       <div className='w-[80%] h-[60%] flex gap-[.5rem] flex-wrap   items-center justify-around'>
         {
           cardData.map((item, index) => (
